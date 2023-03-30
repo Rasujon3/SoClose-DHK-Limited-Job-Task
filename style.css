@@ -18,3 +18,28 @@
 .rating-text {
   margin-bottom: -20px;
 }
+
+.leadership {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  /* text-align: center; */
+}
+
+.leadership img {
+  width: 30px;
+}
+
+/* .leadership p {
+  margin-top: 10px;
+} */
+
+hr {
+  background-color: #e5e5e5 !important;
+  backdrop-filter: blur(27px) !important;
+  height: 10px;
+  border: 0;
+}
